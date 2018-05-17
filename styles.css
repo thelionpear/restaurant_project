@@ -1,5 +1,5 @@
 body {
-    background-color: lightskyblue; 
+    background-color: bisque ; 
 }
 
 .header {
@@ -8,16 +8,18 @@ body {
     border: 3px solid white; 
     color: white; 
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 30px; 
 }
+
 
 
 .categories {
     display: flex; 
     flex-direction: column; 
-    /* justify-content: space-around;  */
-    height: calc(100vh - 90px);
+    justify-content: space-around; 
+    height: calc(120vh - 95px);
     border: 3px solid white; 
-    margin: 3px; 
+    margin-top: 3px; 
     background-image: url("images/restaurant_front.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -36,12 +38,12 @@ body {
 }
 
 
-.appetizers,
-.entrees,
-.desserts {
+#appetizers,
+#entrees,
+#desserts {
     /* padding-top: 70px;  */
-    margin-top: 100px; 
-    margin-left: 100px; 
+    margin-top: 70px; 
+    margin-left: 50px; 
 }
 
 /* .appetizer_choices,
